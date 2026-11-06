@@ -1,6 +1,6 @@
 module sigs.k8s.io/external-dns
 
-go 1.21
+go 1.25.0
 
 require (
 	cloud.google.com/go/compute/metadata v0.2.3
@@ -64,9 +64,9 @@ require (
 	go.etcd.io/etcd/api/v3 v3.5.11
 	go.etcd.io/etcd/client/v3 v3.5.11
 	go.uber.org/ratelimit v0.3.0
-	golang.org/x/net v0.19.0
+	golang.org/x/net v0.54.0
 	golang.org/x/oauth2 v0.15.0
-	golang.org/x/sync v0.6.0
+	golang.org/x/sync v0.20.0
 	golang.org/x/time v0.5.0
 	google.golang.org/api v0.155.0
 	gopkg.in/ns1/ns1-go.v2 v2.7.13
@@ -198,13 +198,13 @@ require (
 	go.uber.org/atomic v1.10.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.26.0 // indirect
-	golang.org/x/crypto v0.17.0 // indirect
+	golang.org/x/crypto v0.52.0 // indirect
 	golang.org/x/exp v0.0.0-20231006140011-7918f672742d // indirect
-	golang.org/x/mod v0.13.0 // indirect
-	golang.org/x/sys v0.15.0 // indirect
-	golang.org/x/term v0.15.0 // indirect
-	golang.org/x/text v0.14.0 // indirect
-	golang.org/x/tools v0.14.0 // indirect
+	golang.org/x/mod v0.35.0 // indirect
+	golang.org/x/sys v0.45.0 // indirect
+	golang.org/x/term v0.43.0 // indirect
+	golang.org/x/text v0.37.0 // indirect
+	golang.org/x/tools v0.44.0 // indirect
 	google.golang.org/appengine v1.6.8 // indirect
 	google.golang.org/genproto v0.0.0-20231211222908-989df2bf70f3 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20231211222908-989df2bf70f3 // indirect
